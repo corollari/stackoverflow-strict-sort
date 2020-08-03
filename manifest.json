@@ -1,0 +1,19 @@
+{
+	"name": "Strict StackOverflow Sort",
+	"version": "1.0.0",
+	"description": "Strictly sort stackoverflow answers by upvotes, without preference for accepted answers",
+	"manifest_version": 2,
+	"icons": {
+		"16": "icons/16.png",
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://stackoverflow.com/questions/*", "https://*.stackexchange.com/questions/*"],
+      "run_at": "document_start",
+			"js": ["contentScript.js"]
+		}
+	]
+}
