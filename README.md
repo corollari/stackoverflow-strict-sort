@@ -2,7 +2,7 @@
   <br>
   <img src="https://raw.githubusercontent.com/corollari/stackoverflow-strict-sort/master/images/icon.png" width="200">
   <br>
-  WaifuChain Extension
+  StackOverflow strict sort
   <br>
 </h1>
 
